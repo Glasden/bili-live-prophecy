@@ -1,0 +1,178 @@
+{
+  "purpose": "Public README screenshots of the actual userscript UI, with clearly labelled demonstration data.",
+  "script_version": "1.0.0",
+  "patch_sha256": "cec11ba33bce26a9c26c8f6037ce7418b7adfa06ad4a86dfe87d3dc4341a8134",
+  "script_injected_for_testing": true,
+  "tampermonkey_extension_install_tested": false,
+  "account": "synthetic demo account; empty isolated profile",
+  "fixture": {
+    "question": "本局能否成功撤离？",
+    "options": [
+      "能成功撤离",
+      "不能成功撤离"
+    ],
+    "ticket": 1,
+    "balance": 12,
+    "answer_counts": [
+      2,
+      8
+    ],
+    "auto_enabled": false,
+    "initial_seconds_remaining": 70
+  },
+  "video": "Original SVG demo landscape from this capture script, rendered as a video poster; no live stream.",
+  "official_h5": "https://live.bilibili.com/p/html/live-app-guessing-game/index.html",
+  "network": "All account/prediction APIs and POSTs mocked. Only pinned unauthenticated official H5/static GETs permitted; WebSockets blocked.",
+  "original_static": [
+    {
+      "url": "https://live.bilibili.com/p/html/live-app-guessing-game/index.html?roomId=23197314&anchorId=51628309",
+      "sha256": "2a7b580414d99dd053a5f4c7e9efe5bbb385ca1cecf4969c275412611f38a4f9",
+      "bytes": 3544
+    },
+    {
+      "url": "https://s1.hdslb.com/bfs/static/blive/guessing-game/static/css/user.41b2029c.css",
+      "sha256": "d1a2764e49107e93ecd7abee1d3ea444d179a12f82e677bb9213ff4ebd45f67d",
+      "bytes": 6374
+    },
+    {
+      "url": "https://s1.hdslb.com/bfs/static/blive/guessing-game/static/js/manifest.ff06e57b.js",
+      "sha256": "15a2904dc969f3a90a2438a8c77c1c4cc9f8461592d05be1e2621abe7656742c",
+      "bytes": 5096
+    },
+    {
+      "url": "https://s1.hdslb.com/bfs/static/blive/guessing-game/static/js/user.55ffac45.js",
+      "sha256": "444564da336954e155bad4bde750f40f43ed3eb1612a4aa86c7bc1252b61537b",
+      "bytes": 7515
+    },
+    {
+      "url": "https://s1.hdslb.com/bfs/static/blive/guessing-game/static/js/chunk-vendors.23c5068a.js",
+      "sha256": "546b7e54517d2735a65b0e034db1c6758ae04b434999756af37fc96ce8d28148",
+      "bytes": 438678
+    },
+    {
+      "url": "https://s1.hdslb.com/bfs/static/blive/guessing-game/static/js/596.d68509c1.js",
+      "sha256": "8a0f7e372f3bb5af42633bf777e379e951ade882dcdaf1060b5774f30292f949",
+      "bytes": 15297
+    },
+    {
+      "url": "https://s1.hdslb.com/bfs/static/blive/guessing-game/static/js/914.3a8e92f4.js",
+      "sha256": "9c6e357626a5832f057340a2d1fefc696a0d0d3e3f594b3a5c62f056e5b9f5a8",
+      "bytes": 30220
+    },
+    {
+      "url": "https://s1.hdslb.com/bfs/static/blive/guessing-game/static/js/344.6f230b03.js",
+      "sha256": "8bea9852a4041922a5b9d128b90cfd13bd132a9e20c59e61955408f51c18a209",
+      "bytes": 11990
+    },
+    {
+      "url": "https://s1.hdslb.com/bfs/static/blive/guessing-game/static/css/596.87e61459.css",
+      "sha256": "95d007a1fd7203d22879eeb347ffd52f5023938fa68193923ca373b562db4933",
+      "bytes": 7341
+    },
+    {
+      "url": "https://s1.hdslb.com/bfs/static/blive/guessing-game/static/img/coin.2b2feae3.png",
+      "sha256": "a96bfb5d31b7539e9b9c63d5379119c286486ee666edc6cd41ecadff5a7d28fa",
+      "bytes": 18914
+    },
+    {
+      "url": "https://s1.hdslb.com/bfs/static/blive/guessing-game/static/img/empty.4097f1e3.png",
+      "sha256": "02b498f4a3100a46a480452cd29e3623cd8a35902f63efa8260d68e9452ce928",
+      "bytes": 76687
+    }
+  ],
+  "static_hashes_verified": [
+    "manifest.ff06e57b.js",
+    "user.55ffac45.js",
+    "chunk-vendors.23c5068a.js",
+    "596.d68509c1.js",
+    "914.3a8e92f4.js",
+    "344.6f230b03.js"
+  ],
+  "screenshots": [
+    {
+      "file": "compact-overlay.png",
+      "description": "Actual compact card in the lower center of the clean demo player.",
+      "css_clip": {
+        "x": 32,
+        "y": 58,
+        "width": 960,
+        "height": 540
+      },
+      "device_scale_factor": 1.5,
+      "fullscreen": false,
+      "png_size": [
+        1440,
+        810
+      ],
+      "sha256": "52af3c00bb257e4123590c3c9c21c5dec79c6c9bfecea1120a5fca52fd9e7388"
+    },
+    {
+      "file": "fullscreen-confirm.png",
+      "description": "Actual Fullscreen API entered through trusted click; actual userscript confirmation dialog.",
+      "css_clip": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 640
+      },
+      "device_scale_factor": 1.5,
+      "fullscreen": true,
+      "png_size": [
+        1536,
+        960
+      ],
+      "sha256": "9dfdcc251976bd74367f90a0f2ec7d5f7cf480221dbc0b8238a2fca1c56325f7"
+    },
+    {
+      "file": "settings.png",
+      "description": "Actual settings panel with default automatic participation off, low-odds strategy, ticket cap 1 and pre-join balance floor 10.",
+      "css_clip": {
+        "x": 552,
+        "y": 0,
+        "width": 452,
+        "height": 632
+      },
+      "device_scale_factor": 1.5,
+      "fullscreen": false,
+      "png_size": [
+        672,
+        948
+      ],
+      "sha256": "fccb9e58aed02fd10cbad1af0876064d7975ff9e62ba79f299574cfb4f8c0dca"
+    }
+  ],
+  "cases": [],
+  "browser": "155.0.4283.45",
+  "fullscreen_cancel_click_verified": true,
+  "child_clicks": [
+    {
+      "kind": "option",
+      "trusted": true
+    },
+    {
+      "kind": "cancel",
+      "trusted": true
+    }
+  ],
+  "iframe_document_preserved": true,
+  "parent_clicks": [
+    {
+      "kind": "fixture-fs-container",
+      "trusted": true
+    },
+    {
+      "kind": "settings-button",
+      "trusted": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "passed": true,
+  "mock_post_count": 0,
+  "mock_api_count": 11,
+  "real_api_requests": 0,
+  "real_post_requests": 0,
+  "blocked_request_count": 1,
+  "temporary_profile_removed": true,
+  "capture_script_sha256": "6d50095c8922c627c756d157fb033cd8aceb5d7089a50561dc5c875e2aa3e4a0"
+}

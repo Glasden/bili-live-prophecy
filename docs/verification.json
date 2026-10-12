@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+  "verified_at_utc": "2026-10-12T17:32:54.007530+00:00",
+  "script": {
+    "file": "bili-live-prophecy.user.js",
+    "sha256": "cec11ba33bce26a9c26c8f6037ce7418b7adfa06ad4a86dfe87d3dc4341a8134",
+    "bytes": 121382
+  },
+  "release_changes": [
+    "Seven version identifiers changed from 0.4.0 to 1.0.0.",
+    "Userscript metadata adds GitHub homepage, support, update and download URLs.",
+    "Repository documentation, screenshots and direct-to-userscript test layout."
+  ],
+  "runtime_equivalence": {
+    "baseline_version": "0.4.0",
+    "baseline_script_sha256": "6c2b4d24a65b36ebf84bc1ae548778e277dc6e8e1b14d18a16eda13880d316a3",
+    "normalized_source_equality": true,
+    "storage_keys_message_channel_and_schema_preserved": true
+  },
+  "release_node_tests": {
+    "command": "npm test",
+    "node": "v24.19.0",
+    "passed": 27,
+    "failed": 0,
+    "skipped": 0,
+    "loads_final_userscript": true
+  },
+  "inherited_browser_baseline": {
+    "version": "0.4.0",
+    "rerun_as_v1_0_0": false,
+    "browser": "155.0.4283.45",
+    "passed": 15,
+    "failed": 0,
+    "mock_participation_posts": 3,
+    "real_api_requests": 0,
+    "real_participation_posts": 0,
+    "cases": [
+      "compact_lower_center_initial",
+      "compact_manual_cancel_and_success",
+      "compact_multiple_open_topics",
+      "compact_expired_while_confirming",
+      "fullscreen_container_existing_overlay",
+      "fullscreen_video_existing_overlay",
+      "fullscreen_collapse_launcher_reopen",
+      "new_topic_after_fullscreen_started",
+      "css_fullscreen_compact",
+      "transient_geometry_loss_preserves_overlay",
+      "open_shadow_root_video",
+      "shadow_direct_video_fullscreen",
+      "existing_v03_automatic_settings_preserved",
+      "compact_manual_cancel_suppresses_saved_auto",
+      "narrow_compact_and_confirmation"
+    ]
+  },
+  "release_screenshots": {
+    "provenance": "images/screenshot-provenance.json",
+    "browser": "155.0.4283.45",
+    "count": 3,
+    "actual_final_script_ui": true,
+    "all_labelled_as_demo_data": true,
+    "mock_api_count": 11,
+    "mock_participation_posts": 0,
+    "real_api_requests": 0,
+    "real_participation_posts": 0,
+    "fullscreen_entry_and_cancel_trusted": true,
+    "iframe_document_preserved": true,
+    "page_errors": 0,
+    "console_errors": 0,
+    "visual_review": "All three final PNGs inspected; text and controls readable."
+  },
+  "cleanup": {
+    "matching_test_processes": 0,
+    "remote_demo_directory_removed": true,
+    "remaining_temp_profiles": 0
+  },
+  "scope_limits": {
+    "tampermonkey_extension_install_tested": false,
+    "signed_in_live_player_tested": false,
+    "native_media_menu_fullscreen_bypassing_page_api_tested": false,
+    "cross_document_player_iframe_fullscreen_tested": false,
+    "closed_shadow_dom_tested": false
+  }
+}
